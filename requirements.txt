@@ -1,0 +1,23 @@
+name: Career-Trends-Analyzer
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - imbalanced-learn
+  - stable-baselines3
+  - gymnasium
+  - jupyter
+  - pip
+  - nltk
+  - pip:
+      - gymnasium[classic_control]  # Only keeping necessary environments
+      - tqdm
+      - black
+      - flake8
+      - nbqa
