@@ -9,9 +9,9 @@ Career Trends Analyzer is a data analytics project designed to identify and visu
 ## Directory Structure
 
 
-## CareerTrends_Analyzer/
+## CareerTrends_Analyzer
 
-## data/  # Datasets
+## List of data sets
 
 
 postings.zip
