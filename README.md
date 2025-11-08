@@ -39,19 +39,19 @@ experience_levels.csv
 
 
 
-## notebooks/ # Main analysis notebooks
+### notebooks/ # Main analysis notebooks
 
 CareerTrends_Analyzer.ipynb
 
-## src/ # Source code modules
+### src/ # Source code modules
 
  
-## reports/ # Output reports and figures
+### reports/ # Output reports and figures
 
 
-## README.md # Project documentation
+### README.md # Project documentation
 
-## requirements.txt # Dependencies list
+### requirements.txt # Dependencies list
 
 
 
