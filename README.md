@@ -11,46 +11,46 @@ Career Trends Analyzer is a data analytics project designed to identify and visu
 
 CareerTrends_Analyzer/
 
-├── data/  # Dataset
+data/  # Datasets
 
 
-├── postings.zip
+postings.zip
 
-├── job_titles.csv
+job_titles.csv
 
-├── company_profiles.csv
+company_profiles.csv
 
-├── locations.csv
+locations.csv
 
-├── industries.csv
+industries.csv
 
-├── education_levels.csv
+education_levels.csv
 
-├── salaries.csv
+salaries.csv
 
-├── job_descriptions.csv
+ job_descriptions.csv
 
-├── skills.csv
+ skills.csv
 
-├── experience_levels.csv
+experience_levels.csv
 
-└── job_types.csv
+ job_types.csv
 
 
-├── notebooks/ # Main analysis notebooks
+notebooks/ # Main analysis notebooks
 
-│ └── CareerTrends_Analyzer.ipynb
+CareerTrends_Analyzer.ipynb
 
-├── src/ # Source code modules
+ src/ # Source code modules
 
  
 
-├── reports/ # Output reports and figures
+ reports/ # Output reports and figures
 
 
-├── README.md # Project documentation
+README.md # Project documentation
 
-└── requirements.txt # Dependencies list
+requirements.txt # Dependencies list
 
 
 
