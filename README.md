@@ -43,12 +43,7 @@ CareerTrends_Analyzer/
 
 ├── src/ # Source code modules
 
- ├── data_processing.py
-
- ├── visualization.py
-
- └── utils.py
-
+ 
 
 ├── reports/ # Output reports and figures
 
@@ -75,8 +70,3 @@ cd CareerTrends_Analyzer
 # Install dependencies
 pip install -r requirements.txt
 
-# Run data processing script
-python src/data_processing.py
-
-# Open and run the main analysis notebook
-jupyter notebook notebooks/CareerTrends_Analyzer.ipynb
