@@ -11,8 +11,8 @@ Career Trends Analyzer is a data analytics project designed to identify and visu
 
 CareerTrends_Analyzer/
 
-│
-├── data/ # Datasets (compressed if large)
+├── data/  # Dataset
+
 
 ├── postings.zip
 
@@ -60,7 +60,7 @@ CareerTrends_Analyzer/
 # Option 1 
 
  Run in Google Colab
- 
+
 Ensure you have a Google Account.
 
 Click the “Open in Colab” button at the top of the notebook (CareerTrends_Analyzer.ipynb).
