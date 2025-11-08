@@ -1,4 +1,4 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/abduyea/Career-Trends-Analyzer/blob/main/CareerTrends_Analysis.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/abduyea/Career-Trends-Analyzer/blob/main)
 
 
 
