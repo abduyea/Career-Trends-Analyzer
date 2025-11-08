@@ -1,5 +1,3 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/abduyea/Career-Trends-Analyzer/blob/main)
-
 
 
 # Career Trends Analyzer
@@ -39,60 +37,53 @@ CareerTrends_Analyzer/
 └── job_types.csv
 
 
-│
 ├── notebooks/ # Main analysis notebooks
 
 │ └── CareerTrends_Analyzer.ipynb
-│
+
 ├── src/ # Source code modules
 
-│ ├── data_processing.py
+ ├── data_processing.py
 
-│ ├── visualization.py
+ ├── visualization.py
 
-│ └── utils.py
+ └── utils.py
 
-│
+
 ├── reports/ # Output reports and figures
 
-│
+
 ├── README.md # Project documentation
 
 └── requirements.txt # Dependencies list
 
 
 
-## Setup and Usage
-1. Run in Google Colab
+Usage
+Option 1 — Run in Google Colab
 
-1. Open [Google Colab](https://colab.research.google.com).
-2. Select the **GitHub** tab → paste your repository URL.
-3. Open `notebooks/CareerTrends_Analyzer.ipynb`.
-4. Optionally, clone the repo directly:
-   ```python
-   !git clone https://github.com/<your-username>/CareerTrends_Analyzer.git
-   %cd CareerTrends_Analyzer
-````
+Ensure you have a Google Account.
 
-5. Run the analysis:
-   
+Click the “Open in Colab” button at the top of the notebook (CareerTrends_Analyzer.ipynb).
 
-### 3. Use on GitHub
 
-- The compressed dataset (`data/postings.zip`, ~72 MB) is stored safely under 100 MB.
-- Pull the repository:
-  ```bash
-  git clone https://github.com/<your-username>/CareerTrends_Analyzer.git
-  cd CareerTrends_Analyzer
-  ```
+The notebook will open directly in Colab — no setup required.
 
----
 
-### 4. Run Locally
+Option 2 — Run Locally
 
-```bash
-git clone https://github.com/<your-username>/CareerTrends_Analyzer.git
+# Clone the repository
+
+.com/<your-username>/CareerTrends_Analyzer.git
+
 cd CareerTrends_Analyzer
+
+
+# Install dependencies
 pip install -r requirements.txt
+
+# Run data processing script
 python src/data_processing.py
-```
+
+# Open and run the main analysis notebook
+jupyter notebook notebooks/CareerTrends_Analyzer.ipynb
