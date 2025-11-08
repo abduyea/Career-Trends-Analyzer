@@ -54,14 +54,17 @@ CareerTrends_Analyzer/
 
 
 
-Usage
-Option 1 — Run in Google Colab
+#Usage
+
+
+#Option 1 — Run in Google Colab
 Ensure you have a Google Account.
 
 Click the “Open in Colab” button at the top of the notebook (CareerTrends_Analyzer.ipynb).
 
 The notebook will open directly in Colab — no setup required.
-Option 2 — Run Locally
+
+#Option 2 — Run Locally
 
 # Clone the repository
 git clone https://github.com/<your-username>/CareerTrends_Analyzer.git
