@@ -39,11 +39,9 @@ experience_levels.csv
 
 
 
-### notebooks/ # Main analysis notebooks
+### Main analysis notebooks
 
 CareerTrends_Analyzer.ipynb
-
-### src/ # Source code modules
 
  
 ### reports/ # Output reports and figures
