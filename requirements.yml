@@ -1,7 +1,8 @@
-name: Career-Trends-Analyzer
+name: career-trends-analyzer
 channels:
   - conda-forge
   - defaults
+
 dependencies:
   - python=3.9
   - pandas
@@ -15,9 +16,9 @@ dependencies:
   - jupyter
   - pip
   - nltk
+  - tqdm
+  - black
+  - flake8
+  - nbqa
   - pip:
-      - gymnasium[classic_control]  # Only keeping necessary environments
-      - tqdm
-      - black
-      - flake8
-      - nbqa
+      - gymnasium[classic_control]
