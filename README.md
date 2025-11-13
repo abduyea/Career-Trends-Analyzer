@@ -16,7 +16,7 @@ Comparing trends by region and industry
 
 Producing clean datasets and visuals for Tableau
 
-Setup
+# Setup
 
 Option 1 — Google Colab
 
@@ -29,59 +29,22 @@ Run cells in order
 Option 2 — Local Environment
 
 git clone https://github.com/yourusername/career-trends-analyzer.git
+
 cd career-trends-analyzer
+
 pip install -r requirements.txt
 
-How to Use
+# How to Use
 
-Run notebooks in sequence:
+Run notebooks in sequence: Project_Setup.ipynb, Data_Load_Clean.ipynb , Data_Quality_Report.ipynb
 
-Project_Setup.ipynb
+EDA_Trends.ipynb ,Skills_Analysis.ipynb ,Salary_Insights.ipynb ,Industry_Regional.ipynb
 
-Data_Load_Clean.ipynb
+Sentiment_Analysis.ipynb ,Final_Report.ipynb
 
-Data_Quality_Report.ipynb
+Dataset Summary:
 
-EDA_Trends.ipynb
-
-Skills_Analysis.ipynb
-
-Salary_Insights.ipynb
-
-Industry_Regional.ipynb
-
-Sentiment_Analysis.ipynb
-
-Final_Report.ipynb
-
-Intermediate outputs → data/interim/
-Final processed files → data/processed/
-
-Dataset Summary
-
-The project uses multiple structured files, including:
-
-postings.zip
-
-job_titles.csv
-
-company_profiles.csv
-
-locations.csv
-
-industries.csv
-
-education_levels.csv
-
-salaries.csv
-
-job_descriptions.csv
-
-skills.csv
-
-experience_levels.csv
-
-job_types.csv
+The project uses multiple structured data set files :
 
 Project Structure
 career-trends-analyzer/
