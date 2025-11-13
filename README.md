@@ -18,7 +18,7 @@ Producing clean datasets and visuals for Tableau
 
 # Setup
 
-Option 1 — Google Colab
+# Option 1 — Google Colab
 
 Open the notebook in Colab
 
@@ -26,7 +26,7 @@ Mount Google Drive if needed
 
 Run cells in order
 
-Option 2 — Local Environment
+# Option 2 — Local Environment
 
 git clone https://github.com/yourusername/career-trends-analyzer.git
 
