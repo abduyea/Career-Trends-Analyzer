@@ -79,15 +79,3 @@ career-trends-analyzer
 Python 3.9+
 
 All dependencies listed in requirements.txt
-
-Outputs
-
-Clean, merged datasets
-
-Skills, salary, and trend insights
-
-EDA summaries & visualizations
-
-Tableau-ready processed files
-
-Final consolidated report notebook
