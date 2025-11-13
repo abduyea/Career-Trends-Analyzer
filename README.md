@@ -36,13 +36,7 @@ pip install -r requirements.txt
 
 # How to Use
 
-Run notebooks in sequence: Project_Setup.ipynb, Data_Load_Clean.ipynb , Data_Quality_Report.ipynb
-
-EDA_Trends.ipynb ,Skills_Analysis.ipynb ,Salary_Insights.ipynb ,Industry_Regional.ipynb
-
-Sentiment_Analysis.ipynb ,Final_Report.ipynb
-
-Dataset Summary:
+Run notebooks in sequence:
 
 The project uses multiple structured data set files :
 
@@ -54,13 +48,7 @@ career-trends-analyzer
 
 ── requirements.txt
 
-── data/
-
-── raw/
-
-── interim/
-
-── processed/
+── data sets
 
 ── notebooks/
 
