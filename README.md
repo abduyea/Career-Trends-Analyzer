@@ -47,25 +47,44 @@ Dataset Summary:
 The project uses multiple structured data set files :
 
 Project Structure
-career-trends-analyzer/
-├── README.md
-├── requirements.txt
-├── data/
-│ ├── raw/
-│ ├── interim/
-│ └── processed/
-├── notebooks/
-│ ├── 00_Project_Setup.ipynb
-│ ├── 01_Data_Load_Clean.ipynb
-│ ├── 02_Data_Quality_Report.ipynb
-│ ├── 03_EDA_Trends.ipynb
-│ ├── 04_Skills_Analysis.ipynb
-│ ├── 05_Salary_Insights.ipynb
-│ ├── 06_Industry_Regional.ipynb
-│ ├── 07_Sentiment_Analysis.ipynb
-│ └── 08_Final_Report.ipynb
-├── reports/
-└── docs/
+
+career-trends-analyzer
+
+── README.md
+
+── requirements.txt
+
+── data/
+
+── raw/
+
+── interim/
+
+── processed/
+
+── notebooks/
+
+── 00_Project_Setup.ipynb
+
+── 01_Data_Load_Clean.ipynb
+
+── 02_Data_Quality_Report.ipynb
+
+── 03_EDA_Trends.ipynb
+
+── 04_Skills_Analysis.ipynb
+
+── 05_Salary_Insights.ipynb
+
+── 06_Industry_Regional.ipynb
+
+── 07_Sentiment_Analysis.ipynb
+
+── 08_Final_Report.ipynb
+
+── reports/
+
+── docs/
 
 Requirements
 
