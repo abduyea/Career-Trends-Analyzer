@@ -40,41 +40,41 @@ Run notebooks in sequence:
 
 The project uses multiple structured data set files :
 
-Project Structure
+# Project Structure
 
 career-trends-analyzer
 
-── README.md
+|README.md
 
-── requirements.txt
+|── requirements.txt
 
-── data sets
+|── data sets
 
-── notebooks/
+|── notebooks/
 
-── Project_Setup.ipynb
+|── Project_Setup.ipynb
 
-── Data_Load_Clean.ipynb
+|── Data_Load_Clean.ipynb
 
-── Data_Quality_Report.ipynb
+|── Data_Quality_Report.ipynb
 
-── EDA_Trends.ipynb
+|── EDA_Trends.ipynb
 
-── Skills_Analysis.ipynb
+|── Skills_Analysis.ipynb
 
-── Salary_Insights.ipynb
+|── Salary_Insights.ipynb
 
-── Industry_Regional.ipynb
+|── Industry_Regional.ipynb
 
-── Sentiment_Analysis.ipynb
+|── Sentiment_Analysis.ipynb
 
-── Final_Report.ipynb
+|── Final_Report.ipynb
 
-── reports/
+|── reports/
 
-── docs/
+|── docs/
 
-Requirements
+# Requirements
 
 Python 3.9+
 
