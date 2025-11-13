@@ -1,18 +1,65 @@
-
-
 # Career Trends Analyzer
 
-## Overview
+A data-driven project that analyzes LinkedIn job-posting(2023-2024) datasets to identify in-demand technical and professional skills, salary patterns, and regional/industry trends. The workflow includes structured data cleaning, exploratory analysis, skill extraction, and preparation of final datasets for dashboarding.
 
-Career Trends Analyzer is a data analytics project designed to identify and visualize in-demand technical and professional skills using job posting data. The project focuses on structured data processing, exploratory analysis, and visualization for data-driven insights.
+# Overview
 
-## Directory Structure
+This project focuses on:
 
+Identifying top technical and professional skills
 
-## CareerTrends_Analyzer
+Detecting skill gaps across industries
 
-## List of data sets
+Analyzing salaries, job types, experience levels
 
+Comparing trends by region and industry
+
+Producing clean datasets and visuals for Tableau
+
+Setup
+
+Option 1 — Google Colab
+
+Open the notebook in Colab
+
+Mount Google Drive if needed
+
+Run cells in order
+
+Option 2 — Local Environment
+
+git clone https://github.com/yourusername/career-trends-analyzer.git
+cd career-trends-analyzer
+pip install -r requirements.txt
+
+How to Use
+
+Run notebooks in sequence:
+
+Project_Setup.ipynb
+
+Data_Load_Clean.ipynb
+
+Data_Quality_Report.ipynb
+
+EDA_Trends.ipynb
+
+Skills_Analysis.ipynb
+
+Salary_Insights.ipynb
+
+Industry_Regional.ipynb
+
+Sentiment_Analysis.ipynb
+
+Final_Report.ipynb
+
+Intermediate outputs → data/interim/
+Final processed files → data/processed/
+
+Dataset Summary
+
+The project uses multiple structured files, including:
 
 postings.zip
 
@@ -28,52 +75,49 @@ education_levels.csv
 
 salaries.csv
 
- job_descriptions.csv
+job_descriptions.csv
 
- skills.csv
+skills.csv
 
 experience_levels.csv
 
- job_types.csv
+job_types.csv
 
+Project Structure
+career-trends-analyzer/
+├── README.md
+├── requirements.txt
+├── data/
+│ ├── raw/
+│ ├── interim/
+│ └── processed/
+├── notebooks/
+│ ├── 00_Project_Setup.ipynb
+│ ├── 01_Data_Load_Clean.ipynb
+│ ├── 02_Data_Quality_Report.ipynb
+│ ├── 03_EDA_Trends.ipynb
+│ ├── 04_Skills_Analysis.ipynb
+│ ├── 05_Salary_Insights.ipynb
+│ ├── 06_Industry_Regional.ipynb
+│ ├── 07_Sentiment_Analysis.ipynb
+│ └── 08_Final_Report.ipynb
+├── reports/
+└── docs/
 
+Requirements
 
+Python 3.9+
 
-### Main analysis notebooks
+All dependencies listed in requirements.txt
 
-CareerTrends_Analyzer.ipynb
+Outputs
 
- 
-### reports/ # Output reports and figures
+Clean, merged datasets
 
+Skills, salary, and trend insights
 
-### README.md # Project documentation
+EDA summaries & visualizations
 
-### requirements.txt # Dependencies list
+Tableau-ready processed files
 
-
-
-# Usage
-
-
-# Option 1 
-
- Run in Google Colab
-
-Ensure you have a Google Account.
-
-Click the “Open in Colab” button at the top of the notebook (CareerTrends_Analyzer.ipynb).
-
-The notebook will open directly in Colab — no setup required.
-
-# Option 2
-
- Run Locally
-
-# Clone the repository
-git clone https://github.com/<your-username>/CareerTrends_Analyzer.git
-cd CareerTrends_Analyzer
-
-# Install dependencies
-pip install -r requirements.txt
-
+Final consolidated report notebook
