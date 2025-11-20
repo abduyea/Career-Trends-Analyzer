@@ -1,81 +1,83 @@
 # Career Trends Analyzer
 
-A data-driven project that analyzes LinkedIn job-posting(2023-2024) datasets to identify in-demand technical and professional skills, salary patterns, and regional/industry trends. The workflow includes structured data cleaning, exploratory analysis, skill extraction, and preparation of final datasets for dashboarding.
+A data-driven project that analyzes LinkedIn job posting (2023-2024) datasets to identify in-demand technical and professional skills, salary patterns, and regional/industry trends. The workflow includes structured data cleaning, exploratory analysis, skill extraction, and preparation of final datasets for visualization.
 
-# Overview
+## Overview
 
 This project focuses on:
 
-Identifying top technical and professional skills
+- Identifying top technical and professional skills
+- Detecting skill gaps across industries
+- Analyzing salaries, job types, experience levels
+- Comparing trends by region and industry
+- Producing clean datasets and visualizations
 
-Detecting skill gaps across industries
+## Setup
 
-Analyzing salaries, job types, experience levels
+### Option 1 — Google Colab
 
-Comparing trends by region and industry
+1. Open the notebook in Colab
+2. Mount Google Drive if needed
+3. Run cells in order
 
-Producing clean datasets and visuals for Tableau
+### Option 2 — Local Environment
 
-# Setup
+```bash
+git clone https://github.com/abduyea/Career-Trends-Analyzer.git
+cd Career-Trends-Analyzer
+conda env create -f requirements.yml
+conda activate career-trends-analyzer
+```
 
-# Option 1 — Google Colab
-
-Open the notebook in Colab
-
-Mount Google Drive if needed
-
-Run cells in order
-
-# Option 2 — Local Environment
-
-git clone https://github.com/yourusername/career-trends-analyzer.git
-
-cd career-trends-analyzer
-
-pip install -r requirements.txt
-
-# How to Use
+## How to Use
 
 Run notebooks in sequence:
 
-The project uses multiple structured data set files :
+1. **Project_setup.ipynb** - Initial setup and configuration
+2. **data_ingestion.ipynb** - Load and validate data
+3. **data_cleaning_and preprocessing.ipynb** - Clean and prepare data
+4. **skill_analysis.ipynb** - Analyze in-demand skills
+5. **salary_analysis.ipynb** - Analyze salary patterns
+6. **industry_and_regional_trends.ipynb** - Analyze trends by industry and region
+7. **sentiment_analysis.ipynb** - Analyze sentiment of job descriptions
+8. **visualizations_and_dashboards.ipynb** - Create visualizations
 
-# Project Structure
+## Project Structure
 
-career-trends-analyzer
+```
+Career-Trends-Analyzer/
+├── README.md
+├── requirements.yml
+├── data/
+│   ├── raw/
+│   │   ├── companies/
+│   │   ├── jobs/
+│   │   ├── mappings/
+│   │   └── postings.csv
+│   └── processed/
+├── notebooks/
+│   ├── Project_setup.ipynb
+│   ├── data_ingestion.ipynb
+│   ├── data_cleaning_and preprocessing.ipynb
+│   ├── skill_analysis.ipynb
+│   ├── salary_analysis.ipynb
+│   ├── industry_and_regional_trends.ipynb
+│   ├── sentiment_analysis.ipynb
+│   └── visualizations_and_dashboards.ipynb
+├── src/
+│   └── utils/
+│       ├── config.py
+│       └── data_loader.py
+└── report/
+```
 
-|README.md
+## Requirements
 
-|── requirements.txt
+- Python 3.9+
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- jupyter
 
-|── data sets
-
-|── notebooks/
-
-|── Project_Setup.ipynb
-
-|── Data_Load_Clean.ipynb
-
-|── Data_Quality_Report.ipynb
-
-|── EDA_Trends.ipynb
-
-|── Skills_Analysis.ipynb
-
-|── Salary_Insights.ipynb
-
-|── Industry_Regional.ipynb
-
-|── Sentiment_Analysis.ipynb
-
-|── Final_Report.ipynb
-
-|── reports/
-
-|── docs/
-
-# Requirements
-
-Python 3.9+
-
-All dependencies listed in requirements.txt
+All dependencies listed in `requirements.yml`
