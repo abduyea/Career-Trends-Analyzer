@@ -42,9 +42,11 @@ Run notebooks in sequence:
 7. **sentiment_analysis.ipynb** - Analyze sentiment of job descriptions
 8. **visualizations_and_dashboards.ipynb** - Create visualizations
 
+   
+the link for the data set : https://www.kaggle.com/datasets/arshkon/linkedin-job-postings/versions/7/data
+
 ## Project Structure
 
-```
 Career-Trends-Analyzer/
 ├── README.md
 ├── requirements.yml
@@ -81,3 +83,4 @@ Career-Trends-Analyzer/
 - jupyter
 
 All dependencies listed in `requirements.yml`
+
