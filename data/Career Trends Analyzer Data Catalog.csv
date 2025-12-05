@@ -1,0 +1,14 @@
+Column / Field Name,Description / Meaning,Data Type (in raw CSV),Possible / Typical Values / Notes,Derived / Analysis Columns
+job_id,Unique ID of the job posting (as per LinkedIn),string / integer,,
+company_id,Unique ID for the company,string / integer,,
+title,"Job title (“Software Engineer”, “Product Manager”)",string,,
+description,Full text of job description,string (text / long),,
+"min_salary, med_salary, max_salary",Minimum / median / maximum salary (if provided by poster),numeric / string (depending on format),,
+pay_period,"Period for the salary (hourly, monthly, yearly)",categorical / string,,
+formatted_work_type,"Type of work (Full-time, Part-time, Contract, etc)",categorical / string,,
+location,Job location (city / state / country / remote),string,,
+job_link / url,URL to the LinkedIn job posting (if available),string / URL,,
+"Company-table fields (via company_id)
+(company_name, industry, company_size,
+headquarters_location, company_description, etc)",Info about the employer,string / categorical / numeric,,
+"Other related tables: skills, benefits, industries","For each job, lists of skills required, benefits, industry tags",lists / arrays / strings / categorical,,
